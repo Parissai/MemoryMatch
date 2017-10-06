@@ -1,0 +1,11 @@
+td {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+table, td {
+    border: 5px solid black;
+}
+
