@@ -49,8 +49,8 @@ function setUp() {
 
     for (var i = 0; i < grid.length; i++) {
         var cell = grid[i];
-        cell.completed = false;     //????
-        cell.clicked = false;       //????
+        cell.completed = false;     
+        cell.clicked = false;       
         cell.value = answers[i];
 
         cell.addEventListener('mouseenter', function () {
